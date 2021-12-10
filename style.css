@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 80%;
+    width: 80%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color:skyblue;
+}
+
+@media only screen and (max-width: 850px) {
+    .body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right:-150px;
+    }
+}
+
+.page {
+    margin: 0 auto;
+    width: 850px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .page {
+        width: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    background: #fff;
+    position: sticky;
+    top: -40px;
+}
+
+@media only screen and (max-width: 850px) {
+    .header {
+        top: 0px;
+    }
+}
+
+.top-line {
+    border-top: 4px solid #101214;
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .profile {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.info {
+    width: 63%;
+}
+
+.info .profile-name {
+    font-size: 30px;
+    margin-bottom: 7px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.info .user-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 500px) {
+    .info .user-title {
+        font-size: 14px;
+    }
+}
+
+.image {
+    width: 37%;
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .image img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.cv-body {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    }
+
+@media only screen and (max-width: 500px) {
+    .cv-body {
+        flex-direction: column;
+        padding-right: 30px;
+    }
+}
+
+.cv-body .skills {
+    width: 63%;
+    height: 500px;
+    padding-right: 20px;
+    display: inline-table;
+}
+
+@media only screen and (max-width: 500px) {
+    .cv-body .skills {
+        width: 100%;
+    }
+}
+
+.cv-body .cv-info-widget {
+    width: 37%;
+    height: 500px;
+    display: inline-table
+}
+
+.content h1 {
+    text-transform: uppercase;
+    color: #73808D;
+    font-size: 14px;
+    margin-bottom: 9px;
+    font-weight: 100;
+}
+
+.content h2 {
+    color: #000;
+    font-size: 19px;
+    margin-bottom: 9px;
+    font-weight: 700;
+}
+
+.content h3 {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 9px;
+    font-weight: 100;
+}
+
+.content h4 {
+    color: #73808D;
+    font-size: 16px;
+    margin-bottom: 9px;
+    font-weight: 100;
+}
+
+.designer {
+    margin-bottom: 40px;
+}
+
+.contact-skills-address h1 {
+    color: #3d464e;
+    font-size: 15px;
+    margin-bottom: 9px;
+    font-weight: 700;
+}
+
+.contact-skills-address p {
+    color: #73808D;
+    font-size: 15px;
+    margin-bottom: 9px;
+    font-weight: 300;
+}
